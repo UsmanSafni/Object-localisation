@@ -34,8 +34,7 @@ The main problem addressed in this project is object localization. Given an inpu
 ### Model Compilation and Training
 
 - The model is compiled with categorical crossentropy loss for classification and custom IoU for bounding box regression.
-- The Adam optimizer is employed with a specific learning rate.
-- The model is trained for a specified number of epochs with the defined data generator and callbacks.
+- The Adam optimizer is employed and The model is trained for 50 epochs with the defined data generator and callbacks.
 
 ## Results
 
